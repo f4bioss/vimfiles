@@ -22,7 +22,7 @@ set tw=500
 set ai "align the new line indent with the previous line
 set si "Smart indet
 set wrap "Wrap lines
-
+colorscheme mustang
 syntax enable
 
 filetype off                  " required
@@ -37,6 +37,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ekalinin/Dockerfile.vim' 
+
+" Color scheme
+"Plugin 'cschlueter/vim-mustang'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
